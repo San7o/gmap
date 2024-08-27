@@ -1,0 +1,14 @@
+services:
+  nvidia-cuda:
+    image: nvidia/cuda:12.3.0-devel-ubuntu22.04
+    tty: true
+    stdin_open: true
+    command: /bin/bash
+    volumes:
+      - .:/code
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            capabilities: [gpu]
