@@ -4,3 +4,6 @@ As the demand for computing performance continues to increase rapidly, the neces
 
 This project is based on the following research:
 https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2024.1407365/full
+
+Cuda documentation:
+https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
